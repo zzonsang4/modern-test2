@@ -1,0 +1,68 @@
+spring:
+  microservice-name: sample-application-property-for-base-msa-framework
+  rabbitmq:
+    host: 169.56.171.66
+    port: 5672
+    username: user
+    password: eK8aHoKXXQ
+    virtual-host: /
+
+management:
+  health:
+    rabbit:
+      enabled: false
+---
+management:
+  health:
+    rabbit:
+      enabled: false
+spring:
+  microservice-name: ms01
+  rabbitmq:
+    host: fw-test-rabbitmq1.fw-test
+    password: xHWyBd2CVO
+    port: 5672
+    username: admin
+    virtual-host: /
+
+---
+management:
+  health:
+    rabbit:
+      enabled: false
+spring:
+  microservice-name: ms02
+  rabbitmq:
+    host: fw-test-rabbitmq1.fw-test
+    password: xHWyBd2CVO
+    port: 5672
+    username: admin
+    virtual-host: /
+
+---
+management:
+  health:
+    rabbit:
+      enabled: false
+spring:
+  microservice-name: ms03
+  rabbitmq:
+    host: fw-test-rabbitmq1.fw-test
+    password: xHWyBd2CVO
+    port: 5672
+    username: admin
+    virtual-host: /
+
+---
+management:
+  health:
+    rabbit:
+      enabled: false
+spring:
+  microservice-name: ms05
+  rabbitmq:
+    host: fw-test-rabbitmq1.fw-test
+    password: xHWyBd2CVO
+    port: 5672
+    username: admin
+    virtual-host: /
