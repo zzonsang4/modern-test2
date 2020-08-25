@@ -15,6 +15,6 @@ public class DemoController {
     @GetMapping
     public String home() {
         log.info("home called");
-        return "I'll let it go at this";
+        return "Home called;
     }
 }
