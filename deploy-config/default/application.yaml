@@ -1,4 +1,2 @@
 server:
-  port: 18080
-servers:
-  ports: 8080,18080
+  port: 8080
