@@ -60,3 +60,24 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   microservice-name: ms05
+
+---
+spring:
+  datasource:
+    dbcp2:
+      initial-size: 20
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: qoxSVIJA8q
+    platform: mariadb
+    url: jdbc:mariadb://169.56.162.104:3306/instructor
+    username: admin
+  h2:
+    console:
+      enabled: false
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  microservice-name: ms06
