@@ -66,3 +66,17 @@ spring:
     port: 5672
     username: admin
     virtual-host: /
+
+---
+management:
+  health:
+    rabbit:
+      enabled: false
+spring:
+  microservice-name: ms06
+  rabbitmq:
+    host: 169.56.171.66
+    password: eK8aHoKXXQ
+    port: 5672
+    username: user
+    virtual-host: /
